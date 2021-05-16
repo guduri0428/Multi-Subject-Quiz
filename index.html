@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="container">
+        <h1 id="heading" >Welcome to Multi Subject Quiz</h1>
+    <p id="matter">This is a multi subject quiz portal.Here you can Participate in this Quiz by selecting your favorite Subject.<br>
+        Instructions: Any subject consist of only 10 questions.Ensure to submit the answer before moving to next <br>
+        Tap submit button only one time for each question.
+    </p>
+    <p id="allthebest">All The Best...!</p>
+    <div class="subject-selection" >
+        <select name="" id="select">
+            <option class="sub" value="python">python</option>
+            <option class="sub" value="javascript">javascript</option>
+            <option class="sub" value="cricket">cricket</option>
+            
+        </select>
+        <button id="subjectsubmit" type="submit">submit</button>
+
+    </div>
+    
+
+    <div  id="ques" class="questions">
+        <h2 id="question"></h2>
+        
+        <input class="opt" type="radio" name="JTP" id="option1" value=""> 
+        <label id="optiona" for="option1"></label><br>
+
+        <input class="opt" type="radio" name="JTP" id="option2" value="">
+        <label id="optionb" for="option2"></label><br>
+
+        <input class="opt" type="radio" name="JTP" id="option3" value="">
+        <label id="optionc" for="option3"></label><br>
+
+        <input class="opt" type="radio" name="JTP" id="option4" value="">
+        <label id="optiond" for="option4"></label><br><br>
+
+        <button id="optionsubmit" type="submit">submit</button>
+        <button id="nextsubmit" type="submit">Next >></button><br>
+        <span><button id="restart" type="submit">Restart..?</button><br></span>
+
+
+        <p id="message"></p>
+        <p id="score"></p>
+
+    </div>
+
+    <div id="developer">
+        <h3>Designed and Developed by GUDURI SRINIVASULU.</h3>
+    </div>
+
+
+    </div>
+    <script src="app.js"></script>
+    
+</body>
+</html>

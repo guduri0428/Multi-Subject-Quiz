@@ -1,0 +1,49 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:#b2d1c9
+  }
+.container{
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    font-size: 20px;
+  }
+.questions{
+    padding-left: 30px;
+    text-align: left;
+    margin-left: 20px;
+    width: 60%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    visibility: hidden;
+    
+
+}
+#select{
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+#subjectsubmit{
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+#optionsubmit{
+    padding: 10px 40px;
+    border-radius: 5px;
+    visibility: hidden;
+}
+#nextsubmit{
+    padding: 10px 40px;
+    border-radius: 5px;
+    visibility: hidden;
+    display: inline;
+    margin-left: 100px;
+}
+#restart{
+    padding: 10px 40px;
+    border-radius: 5px;
+    visibility: hidden;
+    display: inline;
+    margin-left: 400px;
+}
